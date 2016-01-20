@@ -1,0 +1,81 @@
+h1 {
+  font-size: 24pt;
+  font-family: 'Permanent Marker', cursive;
+}
+
+p {
+  font-size: 16pt;
+  font-family: 'Kalam', cursive;
+}
+
+span {
+  color: rgb(224, 28, 28);
+}
+
+html {
+  background-color: rgb(93, 148, 223);
+}
+
+li > img {
+  max-width: 99%;
+  max-height: 60;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.main {
+  width:80%;
+  font-size: 12pt;
+  font-family: 'Kalam', cursive;
+  font-weight:bold;
+  padding-left: 20%;
+}
+
+header {
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  width: 80%;
+  float:right;
+}
+
+#sidebar {
+  position: fixed;
+  padding: 5px;
+  background-color: grey;
+  width: 19%;
+  height: 95%;
+  border-radius: 5px;
+  font-family: 'Kalam', cursive;
+
+}
+a > img {
+  max-width: 99%;
+  max-height: 60;
+  border-radius: 5px;
+}
+
+footer {
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  width: 80%;
+  float:right;
+  padding-bottom: 40px;
+}
+
+a:hover {
+  color: red;
+}
+
+a {
+  color: white;
+  font-size: 14pt;
+  text-decoration: none;
+}
+
+#sidebar::first-letter {
+  color: blue;
+  font-size: 14pt;
+}
